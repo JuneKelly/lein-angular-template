@@ -1,10 +1,10 @@
-(ns leiningen.new.lein-angular-template
+(ns leiningen.new.angular
   (:use [leiningen.new.templates :only [renderer name-to-path sanitize-ns ->files]]
         [leinjacker.utils :only [lein-generation]]))
 
-(def render (renderer "lein-angular-template"))
+(def render (renderer "angular"))
 
-(defn lein-angular-template
+(defn angular
   [name]
   (let [data {:name name
               :ns-name (sanitize-ns name)
@@ -21,7 +21,7 @@
 ["src/{{sanitized}}/views/templates/base.html" (render "base.html")]
 
 ;; clojure tests
-["test/{{sanitized}}/test/handler.clj" (render "handler.clj" data)]
+["test/{{sanitized}}/test/handler.clj" (render "test_handler.clj" data)]
 
 ;; resources - fonts
 ["resources/fonts/glyphicons-halflings-regular.svg" (render "glyphicons_halflings_regular.svg")]
@@ -33,26 +33,26 @@
 ["resources/images/null.png" (render "null.png")]
 
 ;; resources - coffeescript
-["resources/scripts/app.coffee" (render "app.coffee")]
-["resources/scripts/controllers/main.coffee" (render "main.coffee")]
+["resources/scripts/app.coffee" (render "app.coffee" data)]
+["resources/scripts/controllers/main.coffee" (render "main.coffee" data)]
 
 ;; resources - angular views
-["resources/views/main.html" (render "main.html")]
+["resources/views/main.html" (render "main.html" data)]
 
 ;; resources - sass
 ["resources/styles/main.sass" (render "main.sass")]
 
 ;; npm dependencies
-["package.json" (render "package.json")]
+["package.json" (render "package.json" data)]
 
 ;; bower
-["bower.json" (render "bower.json")]
+["bower.json" (render "bower.json" data)]
 [".bowerrc" (render ".bowerrc")]
 
 ;; grunt
 ["gruntfile.coffee" (render "gruntfile.coffee")]
 
 ;; readme
-["README.md" (render "README.md")]
+["README.md" (render "README.md" data)]
 )
     (println "Be sure to read the README file and set up the rest of the dependencies")))

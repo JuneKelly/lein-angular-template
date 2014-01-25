@@ -1,4 +1,4 @@
-(defproject lein-angular-template/lein-template "0.1.0"
+(defproject angular/lein-template "0.1.0"
   :description "Clojure and AngularJS in perfect harmony."
   :url "http://github.com/ShaneKilkelly/clojure-angular-seed"
   :license {:name "Eclipse Public License"

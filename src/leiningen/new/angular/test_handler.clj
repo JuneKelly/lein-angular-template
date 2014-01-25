@@ -1,7 +1,7 @@
 (ns {{ns-name}}.test.handler
   (:use clojure.test
         ring.mock.request
-        {{ns-name}}.handler))
+        cljang.handler))
 
 (deftest test-app
   (testing "main route"
