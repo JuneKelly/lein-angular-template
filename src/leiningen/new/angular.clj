@@ -18,7 +18,7 @@
 ["src/{{sanitized}}/repl.clj" (render "repl.clj" data)]
 ["src/{{sanitized}}/handler.clj" (render "handler.clj" data)]
 ["src/{{sanitized}}/routes/api.clj" (render "api.clj" data)]
-["src/{{sanitized}}/views/templates/base.html" (render "base.html")]
+["src/{{sanitized}}/views/templates/base.html" (render "base.html" data)]
 
 ;; clojure tests
 ["test/{{sanitized}}/test/handler.clj" (render "test_handler.clj" data)]
