@@ -11,7 +11,7 @@ Run: ```lein new angular <project name>```
 
 Obviously you should have leiningen installed.
 
-The generated project uses the wonderful (grunt task-runner)[http://gruntjs.com] to manage compilation of coffee-script and sass assets, watching for source-code changes and running the ring server.
+The generated project uses the wonderful [grunt task-runner](http://gruntjs.com) to manage compilation of coffee-script and sass assets, watching for source-code changes and running the ring server.
 
 In order for all this to work you will require:
 - nodejs and npm
