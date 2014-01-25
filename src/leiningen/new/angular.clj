@@ -29,15 +29,12 @@
 ["resources/fonts/glyphicons-halflings-regular.eot" (render "glyphicons_halflings_regular.eot")]
 ["resources/fonts/glyphicons-halflings-regular.woff" (render "glyphicons_halflings_regular.woff")]
 
-;; resources - images
-["resources/images/null.png" (render "null.png")]
-
 ;; resources - coffeescript
 ["resources/scripts/app.coffee" (render "app.coffee" data)]
 ["resources/scripts/controllers/main.coffee" (render "main.coffee" data)]
 
 ;; resources - angular views
-["resources/views/main.html" (render "main.html" data)]
+["resources/views/main.html" (render "main.html")]
 
 ;; resources - sass
 ["resources/styles/main.sass" (render "main.sass")]
