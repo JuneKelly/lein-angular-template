@@ -20,6 +20,9 @@
 ["src/{{sanitized}}/routes/api.clj" (render "api.clj" data)]
 ["src/{{sanitized}}/views/templates/base.html" (render "base.html" data)]
 
+;; gitignore
+[".gitignore" (render ".gitignore")]
+
 ;; clojure tests
 ["test/{{sanitized}}/test/handler.clj" (render "test_handler.clj" data)]
 
