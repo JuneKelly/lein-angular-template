@@ -1,4 +1,4 @@
-(defproject {{ns-name}} "0.1.7"
+(defproject {{ns-name}} "0.1.0"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
 
