@@ -1,5 +1,6 @@
 (defproject angular/lein-template "0.1.2"
-  :description "Clojure and AngularJS in perfect harmony. $ lein new angular <name>"
+  :description
+  "Clojure and AngularJS in perfect harmony. $ lein new angular <name>"
   :url "http://github.com/ShaneKilkelly/lein-angular-template"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
