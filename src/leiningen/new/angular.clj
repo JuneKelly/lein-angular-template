@@ -55,4 +55,13 @@
 ;; readme
 ["README.md" (render "README.md" data)]
 )
-    (println "Be sure to read the README file and set up the rest of the dependencies")))
+    (println "")
+    (println "|--- Enjoy your new project! ------------------------------------------------|")
+    (println "|                                                                            |")
+    (println "| Be sure to look at the README file and set up the rest of the dependencies |")
+    (println "|                                                                            |")
+    (println "| Or, if node, compass and grunt are already installed:                      |")
+    (println "| $ npm install && bower install && grunt server                             |")
+    (println "|                                                                            |")
+    (println "|----------------------------------------------------------------------------|")
+    (println "")))

@@ -7,13 +7,16 @@ Clojure and AngularJS in perfect harmony.
 
 To get started:
 - ensure you have nodejs and npm installed
-- ensure you have ruby and the ```sass``` rubygem installed: ```gem install sass```
+- ensure you have ruby and the compass rubygem installed: ```gem install compass```
 - install the grunt npm package: ```npm install -g grunt-cli``` (may require sudo)
 
 Then, from this directory:
 - ```$ npm install``` to install the required node packages
 - ```$ bower install``` to install front-end libraries
-- ```$ grunt server``` to fire up the development server,
+
+# Development Server
+
+Run ```$ grunt server``` to fire up the development server,
 with coffeescript compilation and live-reloading.
 
 
@@ -32,3 +35,5 @@ And only the backend api tests with: ```grunt test:ring```
 # Build
 
 To build a deployable uberjar, run: ```$ grunt build```
+
+
