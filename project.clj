@@ -1,4 +1,4 @@
-(defproject angular/lein-template "0.1.3"
+(defproject angular/lein-template "0.1.4"
   :description
   "Clojure and AngularJS in perfect harmony. $ lein new angular <name>"
   :url "http://github.com/ShaneKilkelly/lein-angular-template"
