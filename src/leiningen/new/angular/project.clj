@@ -34,12 +34,12 @@
 
    :dev
    {:dependencies [[ring-mock "0.1.5"]
-                    [ring/ring-devel "1.2.2"]]
+                    [ring/ring-devel "1.3.0"]]
     :env {:selmer-dev true}}
 
    :testing
    {:dependencies [[ring-mock "0.1.5"]
-                   [ring/ring-devel "1.2.2"]]
+                   [ring/ring-devel "1.3.0"]]
     :env {:selmer-dev true}}}
 
   :min-lein-version "2.0.0")
